@@ -1,0 +1,6 @@
+classes= 8
+train  = /home/ai/dev/yolov2/darknet/scripts/devkit/train_darknet.txt
+valid  = /home/ai/dev/yolov2/darknet/scripts/devkit/test_darknet.txt
+names  = /home/ai/dev/yolov2/darknet/cfg/dpm.names
+backup = dpm-cfg/backup
+
