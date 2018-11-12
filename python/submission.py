@@ -195,7 +195,7 @@ def bb_intersection_over_union(cbox, gbox):
 def prepare_datafile():
     img_path = 'DataTest/'
     img_files = os.listdir(img_path)
-    outfile = open('sub_test.txt','a+')
+    outfile = open('test_data.txt','a+')
     for img in img_files:
         cimpath = os.getcwd()+ '/'+img_path+img
         outfile.write (cimpath + '\n')
@@ -209,7 +209,7 @@ def convert_output(input_data):
 
 
 if __name__ == "__main__":
-    # prepare_datafile()
+    prepare_datafile()
 
     all_cols = ['filename','class', 'xmin', 'ymin', 'xmax', 'ymax']
     df_ini = pd.DataFrame(columns=all_cols)
