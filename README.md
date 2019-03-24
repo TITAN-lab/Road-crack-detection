@@ -1,5 +1,5 @@
 # Road-crack-detection
-Detect pavement crack
+Automatic pavement crack detection
 
 1. Download test data, model configuration and weigths from the link below:
 
